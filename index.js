@@ -1,17 +1,3 @@
-// Adding event Listener
-// 1.
-// document.querySelector("button").addEventListener("click", handleClick);
-
-// function handleClick() {
-//     alert("I got Clicked");
-// }
-
-//2.
-// document.querySelector("button").addEventListener("click", function () {
-//     alert("I got Clicked");
-// });
-
-
 // to detect mouse click on the buttons
 var n = document.querySelectorAll(".drum").length; // number of drums
 for (var i = 0; i < n; i++) {
